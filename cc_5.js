@@ -39,3 +39,9 @@ console.log(prices);
 inventory = [5, 0, 10, 3, 7]
 .filter(stock => stock > 0);
 console.log(inventory);
+
+// Task 6 - Reduce Method
+sales = [100, 200, 300, 400, 500]
+.reduce((total, amount) => total + amount);
+console.log(sales);
+
