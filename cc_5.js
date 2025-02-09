@@ -49,3 +49,10 @@ console.log(sales);
 customers = ["Alice", "Bob", "Charlie", "David"]
 .find(customer => customer === "Charlie");
 console.log(customers);
+
+// Task 8 - Tax Calculation
+function calculateTax(amount, taxRate) {
+    let tax = amount * taxRate;
+    console.log(`The tax on $${amount} at a rate of ${taxRate * 100}% is $${tax.toFixed(2)}`);
+}
+calculateTax(100, 0.07); // 7.00
