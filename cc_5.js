@@ -34,3 +34,8 @@ console.log(cartItems);
 prices = [100, 200, 300]
 .map(price => price - price * 0.1);
 console.log(prices);
+
+// Task 5 - Product Avaliability
+inventory = [5, 0, 10, 3, 7]
+.filter(stock => stock > 0);
+console.log(inventory);
