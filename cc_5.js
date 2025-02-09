@@ -56,3 +56,12 @@ function calculateTax(amount, taxRate) {
     console.log(`The tax on $${amount} at a rate of ${taxRate * 100}% is $${tax.toFixed(2)}`);
 }
 calculateTax(100, 0.07); // 7.00
+
+// Task 9 - Discount Application
+const applyDiscount = function(price, discount) { //function to apply discount
+    let discountedPrice = price - (price * discount);
+    console.log(`Price after discount: $${discountedPrice.toFixed(2)}`);
+    return discountedPrice;
+};
+applyDiscount(100, 0.2); // 80.00
+
