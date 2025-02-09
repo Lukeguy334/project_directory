@@ -20,3 +20,11 @@ let order = {
             Status: ${this.status}`);
     }
     order.displayOrder(); //call the method and log the details
+
+// array manipulation
+let cartItems = ["Laptop", "Mouse", "Keyboard"];
+cartItems.push("Monitor");
+cartItems.pop();
+cartItems.unshift("Headphones");
+cartItems.shift();
+console.log(cartItems);
