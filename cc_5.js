@@ -45,3 +45,7 @@ sales = [100, 200, 300, 400, 500]
 .reduce((total, amount) => total + amount);
 console.log(sales);
 
+// Task 7 - Customer Search
+customers = ["Alice", "Bob", "Charlie", "David"]
+.find(customer => customer === "Charlie");
+console.log(customers);
