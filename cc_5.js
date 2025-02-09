@@ -11,20 +11,26 @@ console.log(customer.email);
 let order = { 
     orderId: 12345, 
     totalAmount: 150, 
-    status: "Processing" }
+    status: "Processing", 
 
     // Method to display order details
-    displayOrder: function() {
-        console.log(`Order ID: ${this.orderId}, 
-            Total Amount: ${this.totalAmount}, 
-            Status: ${this.status}`);
+displayOrder: function() {
+    console.log(`Order ID: ${this.orderId}, 
+    Total Amount: ${this.totalAmount}, 
+    Status: ${this.status}`);
     }
-    order.displayOrder(); //call the method and log the details
+};
+ order.displayOrder(); //call the method and log the details
 
-// array manipulation
+// Task 3 - array manipulation
 let cartItems = ["Laptop", "Mouse", "Keyboard"];
 cartItems.push("Monitor");
 cartItems.pop();
 cartItems.unshift("Headphones");
 cartItems.shift();
 console.log(cartItems);
+
+// Task 4 - Price Adjustment
+prices = [100, 200, 300]
+.map(price => price - price * 0.1);
+console.log(prices);
